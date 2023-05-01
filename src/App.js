@@ -4,39 +4,57 @@ import React, { useState } from 'react';
 export default function App() {
     const questions = [
         {
-            questionText: 'What is the capital of France?',
+            questionText: 'Qual propriedade altera o tamanho da fonte no css?',
             answerOptions: [
-                { answerText: 'New York', isCorrect: false },
-                { answerText: 'London', isCorrect: false },
-                { answerText: 'Paris', isCorrect: true },
-                { answerText: 'Dublin', isCorrect: false },
+                { answerText: 'font-family', isCorrect: false },
+                { answerText: 'font-wight', isCorrect: false },
+                { answerText: 'font-size', isCorrect: true },
+                { answerText: 'font-color', isCorrect: false },
             ],
         },
         {
-            questionText: 'Who is CEO of Tesla?',
+            questionText: 'Qual Tag indica um quebra de linha no Html?',
             answerOptions: [
-                { answerText: 'Jeff Bezos', isCorrect: false },
-                { answerText: 'Elon Musk', isCorrect: true },
-                { answerText: 'Bill Gates', isCorrect: false },
-                { answerText: 'Tony Stark', isCorrect: false },
+                { answerText: '<h1>', isCorrect: false },
+                { answerText: '<br>', isCorrect: true },
+                { answerText: '<img>', isCorrect: false },
+                { answerText: '<strong>', isCorrect: false },
             ],
         },
         {
-            questionText: 'The iPhone was created by which company?',
+            questionText: 'Como fazer uma condicional no Javascript?',
             answerOptions: [
-                { answerText: 'Apple', isCorrect: true },
-                { answerText: 'Intel', isCorrect: false },
-                { answerText: 'Amazon', isCorrect: false },
-                { answerText: 'Microsoft', isCorrect: false },
+                { answerText: 'Através do "if"', isCorrect: true },
+                { answerText: 'Através do "for"', isCorrect: false },
+                { answerText: 'Através do "while"', isCorrect: false },
+                { answerText: 'Através do "document"', isCorrect: false },
             ],
         },
         {
-            questionText: 'How many Harry Potter books are there?',
+            questionText: 'Como criar variáveis no css?',
             answerOptions: [
-                { answerText: '1', isCorrect: false },
-                { answerText: '4', isCorrect: false },
-                { answerText: '6', isCorrect: false },
-                { answerText: '7', isCorrect: true },
+                { answerText: 'Através do ":loop{}"', isCorrect: false },
+                { answerText: 'Através do "--root{}"', isCorrect: false },
+                { answerText: 'Através do "--loop{}"', isCorrect: false },
+                { answerText: 'Através do ":root{}"', isCorrect: true },
+            ],
+        },
+        {
+            questionText: 'Qual dessas tags não é semântica?',
+            answerOptions: [
+                { answerText: '<main>', isCorrect: false },
+                { answerText: '<header>', isCorrect: false },
+                { answerText: '<footer>', isCorrect: false },
+                { answerText: '<div>', isCorrect: true },
+            ],
+        },
+        {
+            questionText: 'Em qual declaração as variávei não podem ser reatribuídas?',
+            answerOptions: [
+                { answerText: 'As variáveis de "const"', isCorrect: true },
+                { answerText: 'As variáveis de "let"', isCorrect: false },
+                { answerText: 'As variáveis de "var"', isCorrect: false },
+                { answerText: 'As variáveis de "if"', isCorrect: false },
             ],
         },
     ];
