@@ -10,7 +10,7 @@
 > Melhorar os conceitos sobre a biblioteca React. Como componentes e a mudança de estado de um elemento.
 
 ## Desafios
-> O maior desafio foi montar a lógica. Dos acertos e erros do usuário.
+> O maior desafio foi montar a lógica. Dos acertos e erros do usuário. E os comportamentos da aplicação com a interação do usuário
 
 ## Links
 > Deploy: https://dev-quiz-app-sigma.vercel.app/
