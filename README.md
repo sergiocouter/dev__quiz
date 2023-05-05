@@ -4,7 +4,7 @@
 > É uma aplicação sobre um quiz com perguntas e respostas sobre tecnologias front-end. Depois de respondida todas as questões, e no final é mostrada a quantidade de questões que o usuário acertou.
 
 ## Tecnologias
-> React Js
+> React Js , Html, Css, Javascript 
 
 ## Objetivo
 > Melhorar os conceitos sobre a biblioteca React. Como componentes e a mudança de estado de um elemento.
